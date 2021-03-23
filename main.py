@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Миссия Колонизация Марса"
+    return """"""
 
 @app.route('/index')
 def countdown():
