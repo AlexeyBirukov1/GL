@@ -1,7 +1,7 @@
 from flask import Flask, render_template, make_response, request, session
 from werkzeug.exceptions import abort
 from werkzeug.utils import redirect
-
+a = 0
 from data import db_session
 from data.users import User
 from data.news import News
